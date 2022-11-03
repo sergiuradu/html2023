@@ -1,9 +1,4 @@
 # html2023
-prima modificare
+Prima modificare Online.
 
--A doua modificare -- Pe VsCode --
-
-git status Modificari.
-
-git add -u "update modificari"
-
+A doua modificare -- Vs Code --
