@@ -8,4 +8,4 @@ Vizualizare update " git status"
 
 "git commit -m "second commit"
 
-git push -u
+git push -u Update Git!
