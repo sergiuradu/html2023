@@ -1,7 +1,58 @@
-body {
-    background-color: rgb(50, 243, 179);
+
+.container {
+    background-color: rgb(46, 189, 199);
+    border: solid 0.5px;
+    text-align: center;
+    margin: 15px;
 }
 
-.paragraf {
-    color: blue;
+.nav {
+    border: solid .8px;
+    padding: 11px;
+    margin: 15px 10px;
+    background-color: rgb(3, 132, 172);
+}
+
+.section {
+    background-color: rgb(46, 189, 199);
+    border: solid .5px;
+    margin: 15px;
+    text-align: center;
+}
+
+.article {
+    background-color: rgb(117, 175, 69);
+    border: solid .5px;
+    margin: 15px;
+}
+
+.section2 {
+    background-color: rgb(46, 189, 199);
+    border: solid .5px;
+    margin: 15px;
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(84, 219, 208);
+    border: solid .5px;
+    margin: 15px;
+}
+
+.footer {
+    background-color: rgb(84, 219, 208);
+    border: solid 1px;
+    margin: 15px;
+}
+
+.pa {
+    border: solid .4px;
+    margin: 15px;
+    background-color: rgb(84, 219, 208);
+}
+
+.aside {
+    border: solid .4px;
+    margin: 15px;
+    background-color: rgb(84, 219, 208);
 }
