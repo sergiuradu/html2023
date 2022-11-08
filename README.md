@@ -10,4 +10,6 @@ Vizualizare update " git status"
 
 git push -u Update Git!
 
-Nou lectie azi
+<!-- Curs.  -->
+
+Git Status
