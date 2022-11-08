@@ -12,4 +12,7 @@ git push -u Update Git!
 
 <!-- Curs.  -->
 
-Git Status
+Git Status step 1
+git add -A
+git commit -m'curs1'
+git push origin main
