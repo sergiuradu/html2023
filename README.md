@@ -9,3 +9,5 @@ Vizualizare update " git status"
 "git commit -m "second commit"
 
 git push -u Update Git!
+
+Nou lectie azi
