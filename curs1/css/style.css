@@ -1,6 +1,9 @@
+* {
+    box-sizing: border-box;
+}
 
 .container {
-    background-color: rgb(46, 189, 199);
+    background-color: hsla(265, 47%, 76%, 0.781);
     border: solid 0.5px;
     text-align: center;
     margin: 15px;
@@ -10,49 +13,50 @@
     border: solid .8px;
     padding: 11px;
     margin: 15px 10px;
-    background-color: rgb(3, 132, 172);
+    background-color: hsla(192, 11%, 65%, 0.753);
 }
 
 .section {
-    background-color: rgb(46, 189, 199);
+    background-color: hsla(265, 47%, 76%, 0.781);
     border: solid .5px;
     margin: 15px;
     text-align: center;
 }
 
 .article {
-    background-color: rgb(117, 175, 69);
+    background-color: hsla(192, 11%, 65%, 0.753);
     border: solid .5px;
     margin: 15px;
 }
 
 .section2 {
-    background-color: rgb(46, 189, 199);
+    background-color: hsla(265, 47%, 76%, 0.781);
     border: solid .5px;
     margin: 15px;
     text-align: center;
 }
 
 .header {
-    background-color: rgb(84, 219, 208);
+    background-color: hsla(192, 11%, 65%, 0.753);
     border: solid .5px;
     margin: 15px;
 }
 
 .footer {
-    background-color: rgb(84, 219, 208);
+    background-color: hsla(265, 47%, 76%, 0.781);
     border: solid 1px;
     margin: 15px;
+    text-align: center;
 }
 
 .pa {
     border: solid .4px;
     margin: 15px;
-    background-color: rgb(84, 219, 208);
+    background-color: hsla(192, 11%, 65%, 0.753);
 }
 
 .aside {
     border: solid .4px;
     margin: 15px;
-    background-color: rgb(84, 219, 208);
+    background-color: hsla(192, 11%, 65%, 0.753);
 }
