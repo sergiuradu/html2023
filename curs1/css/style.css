@@ -60,3 +60,21 @@
     margin: 15px;
     background-color: hsla(192, 11%, 65%, 0.753);
 }
+
+.img{
+    margin: 0px 10px 30px 20px;
+    display: block;
+}
+
+#footer{
+    background-color: black;
+    height: 80px;
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    font-size: 15px;
+    color: rgb(20, 99, 72);
+}
