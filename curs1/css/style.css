@@ -1,80 +1,11 @@
-/* * {
-    box-sizing: border-box;
+.column{
+    float: left;
+    width: 33.33%;
+    background-color: aqua;
 }
 
-.container {
-    background-color: hsla(265, 47%, 76%, 0.781);
-    border: solid 0.5px;
-    text-align: center;
-    margin: 15px;
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
 }
-
-.nav {
-    border: solid .8px;
-    padding: 11px;
-    margin: 15px 10px;
-    background-color: hsla(192, 11%, 65%, 0.753);
-}
-
-.section {
-    background-color: hsla(265, 47%, 76%, 0.781);
-    border: solid .5px;
-    margin: 15px;
-    text-align: center;
-}
-
-.article {
-    background-color: hsla(192, 11%, 65%, 0.753);
-    border: solid .5px;
-    margin: 15px;
-}
-
-.section2 {
-    background-color: hsla(265, 47%, 76%, 0.781);
-    border: solid .5px;
-    margin: 15px;
-    text-align: center;
-}
-
-.header {
-    background-color: hsla(192, 11%, 65%, 0.753);
-    border: solid .5px;
-    margin: 15px;
-}
-
-.footer {
-    background-color: hsla(265, 47%, 76%, 0.781);
-    border: solid 1px;
-    margin: 15px;
-    text-align: center;
-}
-
-.pa {
-    border: solid .4px;
-    margin: 15px;
-    background-color: hsla(192, 11%, 65%, 0.753);
-}
-
-.aside {
-    border: solid .4px;
-    margin: 15px;
-    background-color: hsla(192, 11%, 65%, 0.753);
-}
-
-.img{
-    margin: 0px 10px 30px 20px;
-    display: block;
-}
-
-#footer{
-    background-color: black;
-    height: 80px;
-    color: blue;
-    text-align: center;
-    font-size: 30px;
-}
-
-p{
-    font-size: 15px;
-    color: rgb(20, 99, 72);
-} */
