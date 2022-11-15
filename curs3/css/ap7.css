@@ -1,0 +1,11 @@
+div{
+    width: 100%;
+    max-width: 400px;
+    height: 460px;
+    margin: 25px;
+    border: 5px solid red;
+    padding: 10px 20px 15px 5px;
+    float: left;
+    text-align: center;
+    background-color: blanchedalmond;
+}

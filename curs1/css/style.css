@@ -1,3 +1,7 @@
+body{
+    background-color: aquamarine;
+}
+
 table{
     border: 3px solid rgb(78, 55, 160);
     border-radius: 10px;
@@ -51,4 +55,20 @@ tr:nth-child(even) {
     color: rgba(211, 1, 29, 0.897);
     background-color: rgb(33, 39, 126);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button; 
+    background-color: rgba(68, 126, 116, 0.637);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: initial;
+    padding: 6px;
+    color: azure;
 }
