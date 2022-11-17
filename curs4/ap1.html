@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 2px solid red;
+            border-collapse: collapse;
+        }
+        table tr td, table tr th{
+            border: 1px solid blue;
+        }
+        table tr:nth-child(2n){
+            color: brown;
+        }
+        table tr:nth-child(2n+1){
+            color:forestgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primul meu tabel</h1>
+    <table>
+        <tr>
+            <td>Coloana</td>
+            <td>Coloana</td>
+            <td>Coloana</td>
+            <td>Coloana</td>
+        </tr>
+        <tr>
+            <td>Coloana</td>
+            <td>Coloana</td>
+            <td>Coloana</td>
+            <td>Coloana</td>
+        </tr>
+    </table>
+    <h2>Tabel 2</h2>
+    <table>
+        <tr>
+            <th>Nume</th>
+            <th>Prenume</th>
+            <th>Telefon</th>
+            <th>E-mail</th>
+        </tr>
+        <tr>
+            <td>Popescu</td>
+            <td>Ion</td>
+            <td>07665654</td>
+            <td>popescu@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Alex</td>
+            <td>Mariu</td>
+            <td>0756985855</td>
+            <td>alex@gmail.com</td>
+        </tr>
+    </table>
+</body>
+</html>

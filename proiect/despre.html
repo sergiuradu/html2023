@@ -1,24 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>HTML CSS Proiect 2022 - 2023</title>
+    <meta name="description" content="Proiect demo de la cursul de HTML CSS " />
+    <meta name="keywords" content="website, site, CSS, HTML, proeict" />
+    <meta name="author" content="LinkAcademy">
+    <!-- Favicon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+    <link rel='icon' type='image/x-icon' href='./assets/images/favicon.ico'/>
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
 <body>
-    <header>
-        <div class="logo""><img src="./assets/images/logo.png" alt="Logo"></div>
-        <nav>
-            <ul class="nav">
-                <li><a href="acasa.html">Acasa</a></li>
-                <li><a href="despre.html">Despre noi</a></li>
-                <li><a href="portofoliu.html">Portofoliu</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+    <div id="header">
+        <div id="logo">
+          <div id="logo_text">
+            <h1><a href="acasa2.html">Coffe<span class="logo_colour">Shop</span></a></h1>
+            <h2>Primul meu proeict.</h2>
+          </div>
+        </div>
+        <nav id="menubar">
+          <ul id="menu">
+            <li><a href="acasa2.html">Acasa</a></li>
+            <li class="selected"><a href="despre.html">Despre noi</a></li>
+            <li><a href="./portofoliu.html">Portofoliu</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </nav>
-    </header>
+      </div>
+      <div id="main">
+        aici va fi afisat portofoliu
+      </div>
+
+      <div id="footer">
+        <p><a href="acasa.html">Home</a> | <a href="contact.html">Contact</a></p>
+        <p>Copyright &copy; Nume Prenume | <a href="">HTML5</a> | <a href="">CSS</a> </p>
+      </div>
 </body>
 </html>
