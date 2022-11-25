@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formular cu select</h1>
+    <form action="" method="get">
+        <label for="oras">Selecteaza Orasul de resedinta</label>
+        <select name="oras" id="oras" required>
+            <option value="">--Selecteaza--</option>
+            <option value="1">Bucuresti</option>
+            <option value="2">Caransebes</option>
+            <option value="3">Resita</option>
+            <option value="4">Braila</option>
+            <option value="5">Covasna</option>
+            <option value="6" selected>Bucuresti</option>
+            <option value="7">Timisoara</option>
+        </select>
+
+        <label for="eveniment">Selecteaza Orasul de eveniment</label>
+        <select name="eveniment" id="eveniment" required multiple>
+            <option value="">--Selecteaza--</option>
+            <option value="1">Bucuresti</option>
+            <option value="2">Caransebes</option>
+            <option value="3">Resita</option>
+            <option value="4">Braila</option>
+            <option value="5">Covasna</option>
+            <option value="6" selected>Bucuresti</option>
+            <option value="7">Timisoara</option>
+        </select>
+        <br>
+        <label for="mesaj">Mesaj</label>
+        <textarea name="mesaj" id="mesaj" cols="30" rows="10" >
+            demo
+        </textarea>
+            Ramas la 2:55
+
+        <input type="submit" value="Trimite datele">
+    </form>
+
+</body>
+
+</html>

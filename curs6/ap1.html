@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div>
+    <h1>Primul formular</h1>
+    <form action="" method="post">
+        <label for="nume">Nume</label><br>
+        <input type="text" name="nume" id="nume" placeholder="nume" value="sergiu" required readonly><br>
+        <label for="prenume">Prenume</label><br>
+        <input type="text" name="prenume" id="prenume" placeholder="prenume" required><br>
+        <!-- <label for="adresa">Adresa</label>
+        <input type="text" name="adresa" id="adresa" placeholder="adresa" required> -->
+        <label for="mail">Email</label><br>
+        <input type="email" name="emailaddres" id="email"><br>
+        <label for="parola">Password</label><br>
+        <input type="password" name="parola" id="pass"><br>
+
+        <label for="gen">Gen</label><br>
+        <input type="radio" name="gen" id="m">M</input>
+        <input type="radio" name="gen" id="f">F</input>
+        <input type="radio" name="gen" id="n">nan</input><br>
+
+        <label for="curs">Perioada curs</label>
+        <input type="radio" name="curs" id="" value="dimineata" checked> Dimineata
+        <input type="radio" name="curs" id="" value="pranz" disabled> Pranz
+        <input type="radio" name="curs" id="" value="seara"> Seara <br>
+        <label for="limbaje">Limbaje de programare</label> <br>
+        <input type="checkbox" name="php" id="" value="php">PHP <br>
+        <input type="checkbox" name="html" id="" value="html">HTML <br>
+        <input type="checkbox" name="css" id="" value="css">CSS <br>
+        <input type="checkbox" name="phyton" id="" value="phyton">PHYTON <br>
+
+        <br><br>
+        <input type="submit" value="trimite datele">
+        <input type="reset" value="sterge datele">
+    </form>
+</div>
+</body>
+
+</html>

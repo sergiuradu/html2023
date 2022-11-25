@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>Formular Contact!</h1>
+
+        <form action="" method="post" enctype="multipart/form-data">
+            <label for="oras">Selecteaza Oras</label>
+            <select name="oras" id="oras">
+                <option value="">Selecteaza</option>
+                <option value="1">Bucuresti</option>
+                <option value="2">Timisoara</option>
+                <option value="3">Resita</option>
+                <option value="4">Pitesti</option>
+            </select><br>
+            <label for="cursuri">Cursurile dorite</label>
+            <select name="cursuri[]" id="cursuri" multiple>
+                <option value="php">PHP</option>
+                <option value="CSS">CSS</option>
+                <option value="vue">VueJs</option>
+                <option value="javascript">JS</option>
+                <option value="html">HTML</option>
+            </select><br>
+            <label for="mesaj">Mesaj</label>
+            <textarea name="mesaj" id="mesaj" cols="30" rows="10"></textarea><br>
+            <label for="cv">CV</label>
+            <input type="file" name="document" id="cv"> <br>
+            <fieldset>
+                <figcaption>Program Cursuri</figcaption>
+                <input type="radio" name="timp" id="dimi" value="dimineata">Dimineata
+                <input type="radio" name="timp" id="pranz" value="pranz">Pranz
+                <input type="radio" name="timp" id="seara" value="seara">Seara
+            </fieldset>
+            <br>
+            <input type="checkbox" name="termeni" id="" checked>Termeni
+            <input type="checkbox" name="abonat" id="">Abonat <br>
+
+            <input type="submit" value="Trimite">
+
+        </form>
+    </div>
+</body>
+
+</html>

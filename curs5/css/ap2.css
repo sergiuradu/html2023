@@ -1,0 +1,23 @@
+div img{
+    width: 100%;
+    max-width: 600px;
+}
+@media (max-width: 576px){
+    /* mobil */
+    .laptop, .tableta{
+        display: none;
+    }
+}
+@media (min-width: 578px) and (max-width: 768px){
+    /* tableta */
+    .laptop, .mobil{
+        display: none;
+    }
+}
+@media (min-width: 769px){
+    /* laptop */
+    .mobil, .tableta{
+        display: none;
+    }
+}
+
