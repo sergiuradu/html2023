@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/tabel.css">
+</head>
+
+<body>
+    <div>
+        <h2>Tabel</h2>
+        <form action="" method="get">
+            <label for="name">First Name</label><br>
+            <input type="text" name="fname" id="fname" maxlength="5"><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" name="lname" id="lname"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+<br>
+<h3>Formular - 2</h3>
+<div>
+    <form action="" method="post">
+        <label for="username">User:</label>
+        <input type="text" name="username" id="username"><br>
+        <label for="pwd">Parola:</label>
+        <input type="pwd" name="pwd" id="pwd">
+    </form>
+</div>
+<h3>Formular - 3</h3>
+<div>
+    <form action="" method="get">
+    <label for="prenume">Prenume:</label><br>
+    <input type="text" name="prenume" id="prenume" value="sergiu"><br>
+    <label for="nume">Nume:</label><br>
+    <input type="text" name="nume" id="nume" value="Stingu"><br>
+    <input type="submit" value="Submit">
+    <input type="reset">
+    </form>
+</div>
+<h3>Formular - 4</h3>
+<form action="" method="post">
+    <input type="radio" name="favorit" id="html" value="html">
+    <label for="html">HTML</label><br>
+    <input type="radio" name="favorit" id="css" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" name="favorit" id="java">
+    <label for="java">Java</label>
+    <h4>Invers</h4>
+    <label for="html">HTML</label>
+    <input type="radio" name="favorit" id="html" value="HTML"><br>
+</form>
+<h3>Formular - 5</h3>
+<form action="" method="get">
+    <label for="Natura">Vara</label>
+    <input type="checkbox" name="vara" id="vara" value="Soare"><br>
+    <label for="Natura">Primara</label>
+    <input type="checkbox" name="primavara" id="primavara" value="Infloreste"><br>
+    <label for="Natura">Toamna</label>
+    <input type="checkbox" name="toamna" id="toamna" value="Frig"><br>
+    <label for="Natura">Iarna</label>
+    <input type="checkbox" name="iarna" id="iarna" value="Zapada">
+    <h5>Bifa in fata</h5>
+    <input type="checkbox" name="masini" id="masini" value="Logan">
+    <label for="masini">Marca</label><br>
+    <input type="checkbox" name="masini" id="masini" value="BMW">
+    <label for="masini">Marca</label><br>
+    <input type="checkbox" name="masini" id="masini" value="WV">
+    <label for="masini">Marca</label><br>
+    <input type="checkbox" name="masini" id="masini" value="Mercedes">
+    <label for="masini">Marca</label><br>
+    <input type="submit" value="Submit">
+    <h4>Buton Alerta!</h4>
+    <input type="button" value="ClickMe" onclick="alert('Bine ai venit')">
+</form>
+<h4>Culoare </h4>
+<form action="" method="get">
+    <label for="FavColor"> Alege culoarea preferata:</label>
+    <input type="color" name="favcolor" id="favcolor"><br>
+    <input type="submit" value="Trimite!">
+    <h4>Calendar</h4>
+    <label for="calendar">Alege data:</label>
+    <input type="date" name="data" id="data">
+    <h4>Data si Ora LOCAL</h4>
+    <label for="birthdaytime">Birthday (date and time):</label>
+    <input type="datetime-local" name="birthdaytime" id="birthdaytime">
+</form>
+<h4>Email - Image</h4>
+<form action="" method="get">
+<label for="email">Email:</label>
+<input type="email" name="email" id="email" value="exemplu@gmail.com" required>
+<input type="submit" value="Trimite">
+<input type="image" src="../curs2/img/favicon-16x16.png" alt="fav" width="25px" height="25px">
+</form>
+<h4>File</h4>
+<form action="" method="post">
+    <label for="fisier">Fisier</label>
+    <input type="file" name="fisier" id="fisier"><br>
+    <input type="submit" value="Upload">
+    <h4>Alegere Luna si An</h4>
+    <label for="anluna"> Luna si Anu:</label>
+    <input type="month" name="anluna" id="anluna">
+    <input type="submit" value="Trimite">
+</form>
+</body>
+</html>
