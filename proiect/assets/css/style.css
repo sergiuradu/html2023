@@ -480,13 +480,7 @@ table#table-1 tr th{
   background-color: #a398e0;
   text-align: left;
 }
-/* table#tbl_2 tbody tr:nth-child(2n-1) {
-  background-color: #f5f5f5;
-  transition: all 0.125s ease-in-out;
-}
-table#tbl_2 tbody tr:hover {
-  background-color: rgba(129, 208, 177, 0.3);
-} */
+
 /* Tabel - 2 */
 #table-2{
   border: 3px dodgerblue dotted;
